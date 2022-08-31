@@ -4,7 +4,7 @@
     </h1>
     <p>{{userStore.userData}}</p>
     <p>{{userStore.userMayuscula}}</p>
-    <button @click="userStore.registerUser('config@vuejs.com')">Register</button>
+    <Button @click="userStore.registerUser('config@vuejs.com')">Register</Button>
 </template>
 
 <script setup>
